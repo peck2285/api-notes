@@ -2,7 +2,9 @@
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/notes");
+mongoose.connect(
+  "mongodb+srv://admin:1234@cluster0.priqasf.mongodb.net/notes"
+);
 
 const db = mongoose.connection;
 
